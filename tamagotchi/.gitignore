@@ -1,0 +1,8 @@
+
+*.xml
+*.iml
+*.pyc
+*.db
+*.db-journal
+debug.txt
+init.py
