@@ -72,7 +72,7 @@ def cadastro():
 @route.route('/usuarios', methods=['POST'])
 def get_user():
     sessao = Session()
-    return jsonify({'success': "que isso muleke",
+    return jsonify({'success': "sucesso",
                     'usuarios': list(map(lambda x: x.to_json(), sessao.get_all_logged_user())),
                     'mensagens': [],
                     'status': 'Online'

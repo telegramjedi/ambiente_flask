@@ -13,3 +13,4 @@ ADD FLASK_APP
 RUN
 
     python -m flask run --host=0.0.0.0 --port=80
+    python -m flask run --host='localhost' --port=5001
